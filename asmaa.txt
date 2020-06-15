@@ -1,0 +1,29 @@
+public class Main
+{
+	public static void main(String[] args) {
+     double x = 50 ;
+     char X = grade(x);
+     System.out.print(X);
+     double y = 80.1;
+     double z = 70;
+     double c = 60;
+
+	}
+	public static char grade(double a) //aمتغير
+	{
+	    if (a>=90)
+	   return 'A';
+	    else if (a>80)
+	    return 'B';
+	    else if (a>70)
+	    return 'C';
+	    else if (a>60)
+	    return 'D';
+	    else 
+	    return 'F';
+	    
+	}
+	
+	
+	
+}
